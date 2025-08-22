@@ -224,7 +224,7 @@ export function Header({
               }`}
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Админ
+              {t.admin}
             </a>
             <a
               href="/#contact"
